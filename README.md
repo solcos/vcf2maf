@@ -23,3 +23,6 @@ $ perl INSTALL.pl
 
 ## Come back to the working direcotry
 $ cd ../vcf2maf-1.6.21
+
+## Example of vcf2maf
+$ perl vcf2maf.pl --input-vcf tests/test.vcf --output-maf tests/test.vep2.maf --vep-path /./vcf2maf/ensembl-vep --ref-fasta /root/.vep/homo_sapiens/109_GRCh37/Homo_sapiens.GRCh37.dna.toplevel.fa
